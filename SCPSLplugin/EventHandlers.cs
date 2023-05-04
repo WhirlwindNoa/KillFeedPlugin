@@ -29,7 +29,7 @@ namespace SCPSLplugin
                 return;
             }
 
-            killfeed.addEventMessage(ev.Player.Nickname + " killed " +  ev.Attacker.Nickname);
+            killfeed.addEventMessage(ev.Player.Nickname + " was killed by " +  ev.Attacker.Nickname);
             return;
         }
 
