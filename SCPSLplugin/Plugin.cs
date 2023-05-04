@@ -38,6 +38,12 @@ namespace exiledPlugin
             Log.Info("the plugin is no more based");
 
             Handlers.Player.Joined -= EventHandlers.OnPlayerJoin;
+            Handlers.Player.Died -= EventHandlers.OnPlayerDied;
+            Handlers.Map.Decontaminating -= EventHandlers.OnDecontamination;
+            Handlers.Map.GeneratorActivated -= EventHandlers.OnGeneratorActivated;
+            Handlers.Warhead.Detonating -= EventHandlers.OnWarheadDetonation;
+            Handlers.Warhead.Starting -= EventHandlers.OnStartingWarhead;
+            Handlers.Warhead.Stopping -= EventHandlers.OnStoppingWarhead;
         }
     }
 }
