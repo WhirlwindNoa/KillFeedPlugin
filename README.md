@@ -1,3 +1,3 @@
 # KillFeedPlugin
 
-тут ещё есть команда kfadd <сообщение>, с ней можно добавить любое сообщение в киллфид
+adds a kill-feed to the game, similar to other FPS games like CS: GO and etc.
